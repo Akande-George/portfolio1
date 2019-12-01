@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#landing-body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.6;
+    height: 100vh;
+    /* overflow: hidden; */
+    
+}
+
+#container-scroll {
+    width: 100%;
+    height: 100%;
+    /* CSS smooth scroll */
+    /* overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
+}
+
+
+#brand-link {
+    margin-right: 30%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+ ul {
+    display: flex; 
+    list-style: none;
+    widows: 100%;
+    justify-content: center;
+}
+
+ ul li {
+    margin: 0 1rem;
+    
+}
+
+#link-col {
+    text-decoration: none;
+    text-transform:  uppercase;
+    color: #bb067d;
+    
+}
+
+
+
+
+#link-col:hover {
+    color: white;
+    
+    
+}
+
+#home, #about, #portfolio, #blog, #contact {
+    
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    width: 100%;
+    /* height: 100vh;
+    scroll-snap-align: center; */
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+
+#home {
+    background-color: #312f30;
+    color: white;
+    font-family: PT sans caption;
+
+}
+
+
+#portfolio {
+    /* height: 100vh;
+    scroll-snap-align: center; */
+    background-color: white;
+    color: black;
+}
+
+#home h1 span {
+    color: #bb067d;
+}
+
+#home h3 {
+    border: 1px solid #bb067d;
+    padding: 2%;
+    color: white;
+    border-radius: 3%;
+}
+
+#home h3 a {
+    color: white;
+}
+
+#home h3 a:hover {
+    text-decoration: none;
+}
+
+#home h3:hover {
+    text-decoration: none;
+    background-color: #bb067d;
+    color: black;
+}
+
+
+/* 
+#circle {
+     position: relative;
+    border-radius: 50%;
+    width: 100%;
+    height: 40px;
+    margin: ;
+    padding-top: 100%;
+    background: white;
+    } */
+
+#circle i {
+    color: #bb067d;
+}
+
+#about h2 {
+    padding-top: 10%;
+    margin-left: 45%;
+    border-bottom: 2px solid #bb067d;
+    width: 10%;
+}
+
+
+
+#about {
+    background-color: #efebeb;
+    color: black;
+
+}
+#img-about {
+    margin-left: 30%;
+}
+
+
+
+#img-about img {
+    width: 40%;
+    margin: 10%;
+    
+}
+
+
+
+#fast-text {
+    text-align: center;
+    margin-left: 5%;
+}
+
+#fast-text h3 {
+    border-bottom: #bb067d 2px solid;
+    width: 28%;
+    margin-left: 35%;
+}
+
+#fast-text #int {
+    margin-left: 27%;
+    width: 40%;
+}
+
+#fast-text #res {
+    margin-left: 17%;
+    width: 60%;
+}
+
+#fast-text #dyn {
+    margin-left: 22%;
+    width: 50%;
+}
+
+#profile {
+    margin-top: 5%;
+    margin-right: 3%;
+    padding-bottom: 8%;
+}
+
+
+#progress {
+    margin-top: 2%;
+}
+
+
+#profile-col img {
+    width: 90%;
+    padding-left: 15%;
+}
+
+
+#profile-text {
+    padding-left: 5%;
+    text-align: center;
+}
+
+
+
+
+#prog-bar {
+    margin: 3%;
+}
+
+#portfolio {
+    padding-bottom: 5%;
+}
+
+
+
+#portfolio h3 {
+    padding-top: 10%;
+    margin-left: 42%;
+    border-bottom: 2px solid #bb067d;
+    width: 18%;
+    padding-left: 2%;
+}
+
+
+#port-cover {
+    margin-top: 5%;
+    width: 90%;
+    padding-left: 10%;
+}
+
+
+
+
+#port {
+    width: 100%;
+    height: 100%;
+   
+    
+}
+
+#port div {
+    width: 90%;
+    
+}
+
+
+#card-body-div a {
+    background-color: #bb067d;
+    border: #bb067d 1px solid;
+}
+
+#card-body-div a:hover {
+    background-color: white;
+    color: #bb067d;
+    border: #bb067d 1px solid;
+}
+
+#port1 img:hover, #port2 img:hover, #port3 img:hover {
+    background-color: #bb067d;
+    opacity: 0.3;
+}
+
+#blog {
+    background-color: #dad9d7;
+    color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#blog h3 {
+    padding-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 45%;
+    border-bottom: 2px solid #bb067d;
+    width: 7%;
+}
+
+
+.card-text a {
+    text-decoration: none;
+}
+
+
+
+/* contact */ 
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: black;
+  }
+  
+  input[type=submit] {
+    background-color: #bb067d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #333;
+    border: #bb067d 1px solid;
+    color: #bb067d;
+  }
+  
+  .container {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
+
+
+
+  #contact {
+      padding: 5%;
+  }
+
+
+  #container-div {
+      width: 60%;
+      background-color:#333;
+     
+  }
+
+
+  
+  #contact h3 {
+    padding-top: 7%;
+    margin-left: 43%;
+    border-bottom: 2px solid #bb067d;
+    width: 13%;
+  }
+
+  #contact p {
+      margin-left: 32%;
+  }
+
+
+  #textarea-div {
+      background-color: black;
+      border: black;
+  }
